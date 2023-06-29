@@ -1,15 +1,37 @@
-/*corpo kkkk*/
+*{
+  margin: 0;
+  padding: 0;
+}
 
-
-body {
+.corpo {
   background: linear-gradient(91deg, #1C1C1C 13.02%, #14224C 48.13%, #012EAF 100%);
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden;
 }
 
-/*parte de cima*/
+.fundo {
+  opacity: 0.1;
+  width: 100%;
+  display: block;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.logotipo {
+  width: 100px;
+  height: 100px;
+}
+
+
+.logotipoText {
+  width: 250px;
+  height: 250px;
+  left: 10px;
+}
+
 
 nav {
   width: 100%;
@@ -21,13 +43,12 @@ nav {
   padding: 2px 0;
 }
 
-/*menu*/
-
 ul {
   margin-left: 43%;
+  display: flex;
+  justify-content: space-between;
 }
 
-/*menu*/
 
 li {
   list-style: none;
@@ -38,8 +59,6 @@ li {
 
 }
 
-/*texto menu*/
-
 a {
   text-decoration: none;
   color: white;
@@ -47,30 +66,6 @@ a {
   font-weight: bold; 
 }
 
-/*logo brain*/
-
-.logotipo {
-  width: 100px;
-  height: 100px;
-}
-
-/*logo texto*/
-
-.logotipoText {
-  width: 250px;
-  height: 250px;
-  left: 10px;
-}
-
-/*imagem de fundo*/
-
-.fundo {
-  opacity: 0.1;
-  width: 100%;
-  display: block;
-}
-
-/*slogan principal*/
 .txtPrincipal {
   position: absolute;
   top: 30%;
@@ -83,17 +78,6 @@ a {
   height: calc(100% - 200px);
 }
 
-/*local onde a logo se encontra*/
-.extras{
-  position: absolute;
-  top: 85%;
-  margin-left: 110%;
-  width: 90%;
-  height: 90%;
-  display:flex;
-}
-
-/*slogan secundário*/
 .subslogan {
   position: absolute;
   top: 24%;
@@ -104,7 +88,13 @@ a {
 
 }
 
-/*logo whatsapp*/
-.social-media{
+
+.whatsapp{
+  position: fixed;
+  margin-left: 90%;
+  width: 3rem;
+  height: 3rem;
+  display:flex;
   display: block;
-}
+  bottom: 0;
+  }
