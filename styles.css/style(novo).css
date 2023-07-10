@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+
+body{
+    height: 100%;
+    background-color: #282828;
+}
+
+.brain{
+    height: 20vh;   
+}
+
+.thread{
+    height: 2.7vh;
+}
+
+.text{
+    height: 40vh;
+    margin-bottom: -16vh;
+}
+
+.container{
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #ffff;
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    max-width: 20vh;
+    margin: -10vh;
+    margin-bottom: -11vh;
+}
+
+section.botoes-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+a.link button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 2vh ;
+    font-size: 1.2em;
+}
+
+header text{
+    font-size: 2vh;
+    font-weight: 30vh;
+}
+
+.degrade{
+    margin-top: 1.5vh;
+    background: linear-gradient(45deg, #1C1C1C 14.02%, #14224C 48.13%, #012EAF 100%);
+    color: #ffff;
+}
