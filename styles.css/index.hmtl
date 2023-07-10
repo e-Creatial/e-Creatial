@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">   
+    <link rel="stylesheet" href="style.css">
+    <title>Insta Bio</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="brain.png" class="brain">
+            <h1><img src="logo text.png" class="text"></h1>
+            <p>Desenvolvimento de sistemas, análise de dados e designer gráfico</p>
+        </header>
+        
+        <section class="botoes-links">
+            <a href="https://instagram.com/ecreatial?igshid=MzRlODBiNWFlZA==" target="_blank" class="link">
+                <button class="degrade">
+                    <span>Instagram</span>
+                    <i class="bi bi-instagram"></i>
+                </button>
+            </a>
+            
+            <a href="https://wa.me/+5511945770893" target="_blank" class="link">
+                <button class="degrade">
+                    <span>WhatsApp</span>
+                    <i class="bi bi-whatsapp"></i>
+                </button>
+            </a>
+            
+            <a href="#" target="_blank" class="link">
+                <button class="degrade">
+                    <span>Threads</span>
+                    <img src="Threads_(app).png" class="thread">
+                </button>
+            </a>
+        </section>
+        <footer>
+            <a href="#" class="btn-footer" target="_blank"></a>
+            <a href="#" class="btn-footer" target="_blank"></a>
+            <a href="#" class="btn-footer" target="_blank"></a>
+        </footer>
+    </div>
+</body>
+</html>
